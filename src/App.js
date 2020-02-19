@@ -41,8 +41,8 @@ const cvExceptions = {
 const App = () => {
 
     const mitekApiPath = (process.env.NODE_ENV === 'production') ?
-        'https://mitek05435.mitek.dom/~tkramer/reactio/mmw421/' :
-        `${process.env.PUBLIC_URL}/mmw421/`;
+        'https://mitek05435.mitek.dom/~tkramer/reactio/mitekSDK/' :
+        `${process.env.PUBLIC_URL}/mitekSDK/`;
 
     const captureTimeSec = 10;
     const hintervalMsec = 500;
